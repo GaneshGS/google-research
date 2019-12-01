@@ -31,7 +31,7 @@ from six.moves import map
 from six.moves import range
 import tensorflow as tf
 
-from albert import modeling
+import modeling
 from albert import optimization
 from albert import tokenization
 from tensorflow.contrib import cluster_resolver as contrib_cluster_resolver
