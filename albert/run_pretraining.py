@@ -26,8 +26,8 @@ import time
 from six.moves import range
 import tensorflow as tf
 
-from albert import modeling
-from albert import optimization
+import modeling
+import optimization
 from tensorflow.contrib import cluster_resolver as contrib_cluster_resolver
 from tensorflow.contrib import data as contrib_data
 from tensorflow.contrib import tpu as contrib_tpu
