@@ -24,7 +24,7 @@ import tempfile
 import six
 import tensorflow as tf
 
-from albert import tokenization
+import tokenization
 
 
 class TokenizationTest(tf.test.TestCase):
