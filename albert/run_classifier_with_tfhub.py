@@ -24,9 +24,9 @@ import os
 import tensorflow as tf
 import tensorflow_hub as hub
 
-from albert import classifier_utils
-from albert import optimization
-from albert import tokenization
+import classifier_utils
+import optimization
+import tokenization
 from tensorflow.contrib import cluster_resolver as contrib_cluster_resolver
 from tensorflow.contrib import tpu as contrib_tpu
 
