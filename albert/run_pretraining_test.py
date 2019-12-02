@@ -27,8 +27,8 @@ import numpy as np
 from six.moves import range
 import tensorflow as tf
 
-from albert import modeling
-from albert import run_pretraining
+import modeling
+import run_pretraining
 from tensorflow.contrib import cluster_resolver as contrib_cluster_resolver
 
 
