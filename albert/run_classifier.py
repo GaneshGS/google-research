@@ -22,9 +22,9 @@ from __future__ import print_function
 import os
 import time
 import tensorflow as tf
-from albert import classifier_utils
-from albert import modeling
-from albert import tokenization
+import classifier_utils
+import modeling
+import tokenization
 from tensorflow.contrib import cluster_resolver as contrib_cluster_resolver
 from tensorflow.contrib import tpu as contrib_tpu
 
