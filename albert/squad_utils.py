@@ -33,9 +33,9 @@ from six.moves import map
 from six.moves import range
 import tensorflow as tf
 
-from albert import modeling
-from albert import optimization
-from albert import tokenization
+import modeling
+import optimization
+import tokenization
 from tensorflow.contrib import data as contrib_data
 from tensorflow.contrib import layers as contrib_layers
 from tensorflow.contrib import tpu as contrib_tpu
